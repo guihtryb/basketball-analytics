@@ -1,21 +1,15 @@
 import React from 'react';
-import reactLogo from './images/logo.svg';
 
-import chartJsLogo from './images/chartjs-logo.svg';
-import './styles/App.css';
 import Header from './components/Header/Header';
+import Intro from './components/Intro/Intro';
 
 function App() {
   return (
     <div>
       <Header />
       <main>
-        <h1>
-          Estatísticas da mais recente temporada da NBA
-        </h1>
-        <img src={reactLogo} alt="logo" height="120px" className="app-logo" />
-        <span>+</span>
-        <img src={chartJsLogo} alt="logo" height="120px" />
+
+        <Intro />
         <section>
           <h2>Conferência</h2>
           <button type="button">&lt; Previous</button>
