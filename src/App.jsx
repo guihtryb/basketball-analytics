@@ -1,21 +1,19 @@
 import React from 'react';
 import reactLogo from './images/logo.svg';
-import appLogo from './images/appLogo.png';
+
 import chartJsLogo from './images/chartjs-logo.svg';
 import './styles/App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="header">
-        <img src={appLogo} alt="logo" className="logo-web" />
-        <h1 className="logo-mobile">Basketball Analytics</h1>
-      </header>
+    <div>
+      <Header />
       <main>
         <h1>
           Estatísticas da mais recente temporada da NBA
         </h1>
-        <img src={reactLogo} alt="logo" height="120px" className="App-logo" />
+        <img src={reactLogo} alt="logo" height="120px" className="app-logo" />
         <span>+</span>
         <img src={chartJsLogo} alt="logo" height="120px" />
         <section>
