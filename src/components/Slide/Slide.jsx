@@ -14,7 +14,7 @@ const teams = {
 
 export default function Slide({ title, items }) {
   const [slideIndex, setSlideIndex] = React.useState(0);
-  const [backgroundColor, setBackgroundColor] = React.useState('#000');
+  const [backgroundColor, setBackgroundColor] = React.useState('#111');
 
   const handleNext = () => (
     slideIndex === items.length - 1 ? setSlideIndex(0) : setSlideIndex(slideIndex + 1)

@@ -19,7 +19,7 @@
   font-size: 1.5rem;
 }
 
-@media (min-width : 600px) {
+@media (min-width : 750px) {
   .header {
     justify-content: flex-start;
   }
