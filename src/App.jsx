@@ -1,25 +1,18 @@
 import React from 'react';
-
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
+import Slide from './components/Slide/Slide';
+
+import './styles/app.css';
 
 function App() {
   return (
     <div>
       <Header />
       <main>
-
         <Intro />
-        <section>
-          <h2>Conferência</h2>
-          <button type="button">&lt; Previous</button>
-          <button type="button">Next &gt;</button>
-        </section>
-        <section>
-          <h2>Times</h2>
-          <button type="button">&lt; Previous</button>
-          <button type="button">Next &gt;</button>
-        </section>
+        <Slide title="Conferência" items={['Leste', 'Oeste']} />
+        <Slide title="Time" items={['Atlanta Hawks', 'Golden State Warriors', 'Milwaukee Bucks', 'Philadelfia 76ers']} />
         <section>
           <h1>Atlanta Hawks (logo)</h1>
           <ul>

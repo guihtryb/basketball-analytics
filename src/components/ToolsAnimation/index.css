@@ -1,4 +1,5 @@
 .tools-animation {
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +29,7 @@
 .chart-logo {
   height: 90px;
 }
+
 .plus {
   font-size: 2rem;
 }

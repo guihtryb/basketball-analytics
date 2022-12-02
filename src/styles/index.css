@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@200;300;400&family=Nunito:wght@300;400;500;700&family=Roboto:ital,wght@1,700&display=swap');
+
 body {
+  background-color: #F1F1F1;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -15,4 +18,5 @@ code {
 * {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
