@@ -1,0 +1,65 @@
+.team-first-infos-section {
+  font-family: 'Alexandria';
+  padding: 1.75rem;
+}
+
+.team-name-and-logo {
+  display: flex;
+  gap: 0.75rem;
+  margin-left: -0.5rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.75rem;
+}
+
+.team-name {
+  font-size: 2.125rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  min-width: 260px;
+  height: fit-content;
+}
+
+.team-first-infos-list {
+  align-items: center;
+  font-size: 1.125rem;
+  padding: 1.25rem 0;
+}
+
+.team-first-infos-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.65rem;
+  max-width: 700px;
+  min-width: 280px;
+}
+
+@media (min-width : 745px) {
+  .team-first-infos-section {
+    padding: 0;
+  }
+
+  .team-name-and-logo {
+    padding: 2.5rem 0;
+    gap: 2rem;
+  }
+
+  .team-name-and-logo img {
+    height: 68px;
+    width: 68px;
+  }
+
+  .team-name {
+    text-align: center;
+    font-size: 3.25rem;
+  }
+
+  .team-first-infos-list {
+    font-size: 1.25rem;
+  }
+
+  .team-first-infos-list li {
+    margin: 0 auto;
+    margin-bottom: 0.65rem;
+  }
+}

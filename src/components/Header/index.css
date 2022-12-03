@@ -20,14 +20,10 @@
 }
 
 @media (min-width : 750px) {
-  .header {
-    justify-content: flex-start;
-  }
-
   .logo-web {
     display: block;
   }
-  
+
   .logo-mobile {
     display: none;
   } 
