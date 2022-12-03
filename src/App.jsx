@@ -2,8 +2,10 @@ import React from 'react';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
 import Slide from './components/Slide/Slide';
+import TeamInfos from './components/TeamInfos/TeamInfos';
 
 import './styles/app.css';
+import teamExample from './teams';
 
 function App() {
   return (
@@ -11,17 +13,23 @@ function App() {
       <Header />
       <main>
         <Intro />
-        <Slide title="Conferência" items={['Leste', 'Oeste']} />
-        <Slide title="Time" items={['Atlanta Hawks', 'Golden State Warriors', 'Milwaukee Bucks', 'Philadelfia 76ers']} />
-        <section>
-          <h1>Atlanta Hawks (logo)</h1>
-          <ul>
-            <li>Cidade: Atlanta, Georgia</li>
-            <li>Arena: State Farm Arena</li>
-            <li>Fundado há: 76 anos</li>
-            <li>Títulos da NBA: 1</li>
-          </ul>
-        </section>
+        <Slide
+          title="Conferência"
+          items={['Leste', 'Oeste']}
+        />
+        <Slide
+          title="Time"
+          items={['Atlanta Hawks', 'Golden State Warriors', 'Milwaukee Bucks', 'Philadelfia 76ers']}
+        />
+        <TeamInfos
+          arena={teamExample.arena}
+          arenaLink={teamExample.arenaLink}
+          championchips={teamExample.championschips}
+          city={teamExample.city}
+          cityLink={teamExample.cityLink}
+          teamName={teamExample.name}
+          years={teamExample.years}
+        />
         <section>
           <h1>Dashboard</h1>
           <div>
