@@ -1,26 +1,28 @@
 import PropTypes from 'prop-types';
-import './index.css';
 
 import React from 'react';
-import GraphicDuoList from '../GraphicDuoList/GraphicDuoList';
+import DuoGraphicList from '../DuoGraphicList/DuoGraphicList';
 
 export default function DuoGraphicCard({ subject, graphicDuoLists }) {
   return (
-    <div>
+    <div className="graphic-card">
       <h2>
         {subject}
       </h2>
-      {
-        graphicDuoLists.map((list) => (
-          <GraphicDuoList
-            graphicName={list.graphicName}
-            leftName={list.leftName}
-            leftData={list.leftData}
-            rightName={list.rightName}
-            rightData={list.rightData}
-          />
-        ))
-      }
+      <div className="graphics-container">
+        {
+          graphicDuoLists.map((list) => (
+            <DuoGraphicList
+              key={list.graphicName}
+              graphicName={list.graphicName}
+              leftName={list.leftName}
+              leftData={list.leftData}
+              rightName={list.rightName}
+              rightData={list.rightData}
+            />
+          ))
+        }
+      </div>
     </div>
   );
 }
