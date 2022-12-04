@@ -1,6 +1,6 @@
 import hawksExampleLogo from '../images/teams/hawks.png';
 
-const teamExample = {
+export const teamExample = {
   name: 'Atlanta Hawks',
   image: hawksExampleLogo,
   cityLink: 'https://www.google.com/maps/place/Atlanta,+GA,+USA/@33.7489954,-84.3879824,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNXloXpGkJpcMiE9ng8Kht3o12x-7poFj8kKzKm!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNXloXpGkJpcMiE9ng8Kht3o12x-7poFj8kKzKm%3Dw203-h253-k-no!7i1080!8i1349!4m13!1m7!3m6!1s0x88f5045d6993098d:0x66fede2f990b630b!2sAtlanta,+GA,+USA!3b1!8m2!3d33.748752!4d-84.3876845!3m4!1s0x88f5045d6993098d:0x66fede2f990b630b!8m2!3d33.748752!4d-84.3876845',
@@ -11,4 +11,62 @@ const teamExample = {
   championschips: 1,
 };
 
-export default teamExample;
+export const teamStaticsPointsListExample = [
+  {
+    graphicName: 'Geral',
+    leftName: 'Marcados',
+    leftData: 29,
+    rightName: 'Sofridos',
+    rightData: 20,
+  },
+  {
+    graphicName: 'Pontos marcados',
+    leftName: 'Em casa',
+    leftData: 19,
+    rightName: 'Fora',
+    rightData: 10,
+  },
+  {
+    graphicName: 'Pontos sofridos',
+    leftName: 'Em casa',
+    leftData: 8,
+    rightName: 'Fora',
+    rightData: 12,
+  },
+];
+
+export const teamStaticsMatchesListExample = [
+  {
+    graphicName: 'Geral',
+    leftName: 'Vitórias',
+    leftData: 25,
+    rightName: 'Derrotas',
+    rightData: 20,
+  },
+  {
+    graphicName: 'Vitórias',
+    leftName: 'Em casa',
+    leftData: 20,
+    rightName: 'Fora',
+    rightData: 5,
+  },
+  {
+    graphicName: 'Derrotas',
+    leftName: 'Em casa',
+    leftData: 8,
+    rightName: 'Fora',
+    rightData: 12,
+  },
+];
+
+export const teamStaticsDefenseListExample = [
+  {
+    graphicName: 'Rebotes defensivos\\Bloqueios\\Roubadas',
+    leftName: 'Robotes defensivos',
+    leftData: 29,
+    middleName: 'Bloqueios',
+    middleData: 29,
+    rightName: 'Roubadas',
+    rightData: 29,
+  },
+];
