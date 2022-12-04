@@ -30,27 +30,36 @@ function App() {
           teamName={teamExample.name}
           years={teamExample.years}
         />
-        <section>
+        <section className="dashboard-section">
           <h1>Dashboard</h1>
-          <div>
+          <h2>Temporada 22/23</h2>
+          <div className="graphic-card">
             <h2>Pontuação</h2>
-            <h3>Geral</h3>
-            <ul>
-              <li>Marcados: 29 pts</li>
-              <li>Sofridos: 29 pts</li>
-            </ul>
-            <h3>Pontos Marcados</h3>
-            <ul>
-              <li>Em casa: 29 pts</li>
-              <li>Fora: 29 pts</li>
-            </ul>
-            <h3>Pontos Sofridos</h3>
-            <ul>
-              <li>Em casa: 29 pts</li>
-              <li>Fora: 29 pts</li>
-            </ul>
+            <div className="graphics-container">
+              <div className="graphic">
+                <h3>Geral</h3>
+                <ul>
+                  <li>Marcados: 29</li>
+                  <li>Sofridos: 29</li>
+                </ul>
+              </div>
+              <div className="graphic">
+                <h3>Pontos Marcados</h3>
+                <ul>
+                  <li>Em casa: 29</li>
+                  <li>Fora: 29</li>
+                </ul>
+              </div>
+              <div className="graphic">
+                <h3>Pontos Sofridos</h3>
+                <ul>
+                  <li>Em casa: 29</li>
+                  <li>Fora: 29</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div>
+          <div className="graphic-card">
             <h2>Partidas</h2>
             <h3>Geral</h3>
             <ul>
