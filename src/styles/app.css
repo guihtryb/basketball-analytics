@@ -64,13 +64,32 @@
 }
 
 @media (min-width : 745px) {
+  .dashboard-section h1 {
+    font-size: 2.75rem;
+    margin-bottom: 2.25rem;
+    margin-top: 1.25rem;
+  }
+
+  .dashboard-section > h2 {
+    font-size: 1.75rem;
+    margin-bottom: 4rem;
+  }
+
   .graphics-container {
     flex-direction: row;
     flex-wrap: wrap;
   }
 
+  .graphic-card h2 {
+    font-size: 1.8rem;
+  }
+
   .graphic {
     flex: 1;
     min-width: 280px;
+  }
+
+  .graphic h3 {
+    font-size: 1.5rem;
   }
 }
