@@ -1,5 +1,5 @@
 .dashboard-section {
-  background-color: #000;
+  background: #000;
   color: #FFF;
   padding: 1.5rem 2.5rem;
 }
@@ -22,6 +22,10 @@
   margin: 1.5rem auto;
   text-align: center;
   min-width: 260px;
+}
+
+rect {
+  fill: transparent;
 }
 
 @media (min-width : 745px) {
