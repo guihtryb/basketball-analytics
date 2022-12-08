@@ -20,15 +20,15 @@ export const teamStaticsPointsListExample = [
     rightData: 20,
   },
   {
-    graphicName: 'Pontos marcados',
-    leftName: 'Em casa',
+    graphicName: 'Pontos Marcados',
+    leftName: 'Em Casa',
     leftData: 19,
     rightName: 'Fora',
     rightData: 10,
   },
   {
-    graphicName: 'Pontos sofridos',
-    leftName: 'Em casa',
+    graphicName: 'Pontos Sofridos',
+    leftName: 'Em Casa',
     leftData: 8,
     rightName: 'Fora',
     rightData: 12,
@@ -45,14 +45,14 @@ export const teamStaticsMatchesListExample = [
   },
   {
     graphicName: 'Vitórias',
-    leftName: 'Em casa',
+    leftName: 'Em Casa',
     leftData: 20,
     rightName: 'Fora',
     rightData: 5,
   },
   {
     graphicName: 'Derrotas',
-    leftName: 'Em casa',
+    leftName: 'Em Casa',
     leftData: 8,
     rightName: 'Fora',
     rightData: 12,
@@ -61,8 +61,8 @@ export const teamStaticsMatchesListExample = [
 
 export const teamStaticsDefenseListExample = [
   {
-    graphicName: 'Rebotes defensivos\\Bloqueios\\Roubadas',
-    leftName: 'Robotes defensivos',
+    graphicName: 'Defesa',
+    leftName: 'Robotes Defensivos',
     leftData: 29,
     middleName: 'Bloqueios',
     middleData: 29,

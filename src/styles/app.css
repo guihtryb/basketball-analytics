@@ -48,8 +48,6 @@ g[class="google-visualization-tooltip"] text {
   fill: #000;
 }
 
-
-
 @media (min-width : 745px) {
   .graphics-container {
     flex-direction: row;
