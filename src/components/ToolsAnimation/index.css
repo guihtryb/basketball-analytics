@@ -6,6 +6,26 @@
   gap: 1rem;
 }
 
+.tools-animation img {
+  padding: 1rem;
+}
+
+.techs-box {
+  margin-left: calc(50% - 145px);
+  width: fit-content;
+}
+
+.techs-box p {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.techs-box p:first-child {
+  margin-right: 3.25rem;
+}
+
 .react-logo {
   height: 90px;
   pointer-events: none;
